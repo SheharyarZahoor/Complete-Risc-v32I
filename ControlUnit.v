@@ -2,7 +2,7 @@ module ControlUnit(IMEMout,RegWEn,ALUSel,rs1,rs2,rd,BSel,type,ImGen_input,MemRW,
 input[31:0] IMEMout;
 output reg RegWEn,BSel,type,MemRW,ASel,PCSel,type2,BrUn, type3;
 input BrLT,BrEq;
-output reg [3:0] ALUSel;
+    output reg [3:0] ALUSel;aaaaa
 output reg [4:0] rs1,rs2,rd;
 output reg [19:0] ImGen_input;
 output reg [2:0] Load_type;
